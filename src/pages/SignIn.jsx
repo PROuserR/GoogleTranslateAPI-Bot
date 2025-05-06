@@ -23,8 +23,8 @@ function SignIn() {
   }
 
   return (
-    <section className="w-full h-full flex flex-col py-16 text-center">
-      <div className="SignIn-Container flex flex-col w-1/3 rounded-3xl border-2 py-8 px-12 m-auto gap-y-1">
+    <section className="w-screen h-screen flex flex-col text-center gap-y-4 p-8 xl:p-0 xl:w-full xl:h-full xl:py-16">
+      <div className="SignIn-Container flex flex-col rounded-3xl border-2 py-8 px-12 w-full xl:w-1/3 m-auto gap-y-1">
         <img src={Logo} alt="Logo" className="w-48 m-auto mb-4" />
         <div className="text-3xl">Log in</div>
         <span className="text-sm mb-6">Welcome back to AMAIZO</span>

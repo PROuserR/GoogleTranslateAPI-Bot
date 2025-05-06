@@ -12,7 +12,7 @@ import { Link } from "react-router";
 
 function NavBar() {
   return (
-    <nav className="flex w-1/3">
+    <nav className="hidden lg:flex w-1/3">
       <section className="flex flex-col h-full px-2 py-4">
         <BiQuestionMark className="w-5 h-5 m-auto border rounded-full p-0.5 text-gray-300" />
         <BiCog className="w-8 h-8 text-gray-300" />
