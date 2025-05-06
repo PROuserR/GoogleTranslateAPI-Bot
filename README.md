@@ -63,7 +63,7 @@ This creates an optimized **production build** in the `build` folder, making it 
 
 This project is open-source and available under the **MIT License**. Feel free to contribute and expand its capabilities! 🤝
 
-an paste directly from Word or other rich text sources.
+
 
 
 # Getting Started with Create React App
