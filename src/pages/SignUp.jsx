@@ -17,7 +17,8 @@ function SignUp() {
     };
     const isValid = await userSignUpSchema.isValid(formData);
 
-    if (isValid & formData.password === formData.passwordConfirm) nav("/signin");
+    if (isValid & (formData.password === formData.passwordConfirm))
+      nav("/signin");
     else {
       if (formData.password !== formData.passwordConfirm)
         alert("Please make sure the passwords you enter are the same.");
@@ -46,7 +47,10 @@ function SignUp() {
         >
           Skip for now
         </Link>
-        <form className="flex flex-col gap-y-2 text-gray-500" onSubmit={handleSubmit}>
+        <form
+          className="flex flex-col gap-y-2 text-gray-500"
+          onSubmit={handleSubmit}
+        >
           <input
             className="py-2 px-8 rounded-xl"
             type="text"
@@ -73,11 +77,11 @@ function SignUp() {
             value="Create your free account"
             className="w-full bg-red-400 text-white rounded-lg text-sm py-2 cursor-pointer"
           />
-
-          <div className="w-full flex text-gray-400 text-center">
-            By signing up you agree to our <div className="underline pl-1 text-gray-500">Terms of Service.</div>
-          </div>
         </form>
+        <div className="w-full flex text-gray-400 text-center justify-center items-center">
+          By signing up you agree to our
+          <div className="underline pl-1 text-gray-500">Terms of Service.</div>
+        </div>
       </div>
       <Link to="/SignIn">Already have an account?Log In</Link>
     </section>
