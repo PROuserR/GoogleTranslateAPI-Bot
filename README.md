@@ -63,8 +63,9 @@ This creates an optimized **production build** in the `build` folder, making it 
 
 This project is open-source and available under the **MIT License**. Feel free to contribute and expand its capabilities! 🤝
 
+<br/ >
 
-
+<hr />
 
 # Getting Started with Create React App
 
