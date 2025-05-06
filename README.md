@@ -65,7 +65,7 @@ This project is open-source and available under the **MIT License**. Feel free t
 
 <br>
 <br>
-<hr>
+
 
 # Getting Started with Create React App
 
