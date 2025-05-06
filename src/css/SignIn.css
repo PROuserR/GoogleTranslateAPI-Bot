@@ -1,0 +1,13 @@
+.SignIn-Container {
+  /* Rectangle 9010 */
+
+  box-sizing: border-box;
+
+  background: linear-gradient(
+    159.36deg,
+    rgba(3, 121, 255, 0.08) 6.48%,
+    rgba(183, 4, 248, 0.178) 50.76%,
+    rgba(255, 128, 95, 0.08) 90.03%
+  );
+  border-radius: 26px;
+}
