@@ -45,7 +45,7 @@ Open **http://localhost:3000** to experience the magic! ✨
 
 ## 🏗 Technologies Used
 
-💻 **React** - Dynamic frontend framework 🔡 **Google Translate API** - Powers real-time translation 🎨 **TailwindCSS** - Elegant UI styling 📦 **Node.js** - Backend environment
+💻 **React** - Dynamic frontend framework 🔡 **Google Translate API** - Powers real-time translation 🎨 **TailwindCSS** - Elegant UI styling
 
 ## 🌍 Deployment
 
